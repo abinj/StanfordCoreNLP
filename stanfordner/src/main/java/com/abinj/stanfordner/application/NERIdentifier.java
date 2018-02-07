@@ -12,7 +12,7 @@ import edu.stanford.nlp.util.Triple;
 import java.util.List;
 
 /**
- FOr run this class you have to be pass the following parameters
+ For run this class you have to be pass the following parameters
  1, The model path you want to use as ner identifier
  2, The test file path
 
