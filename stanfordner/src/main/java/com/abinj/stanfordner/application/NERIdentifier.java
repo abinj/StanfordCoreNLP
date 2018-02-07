@@ -11,7 +11,15 @@ import edu.stanford.nlp.util.Triple;
 
 import java.util.List;
 
-public class MainApplications {
+/**
+ FOr run this class you have to be pass the following parameters
+ 1, The model path you want to use as ner identifier
+ 2, The test file path
+
+ Note: If you missed the model path while running the ner identifier will use the default model provided by stanford
+ */
+
+public class NERIdentifier {
 
     public static void main(String[] args) throws Exception {
         String serializedClassifier = "classifiers/english.all.3class.distsim.crf.ser.gz";
